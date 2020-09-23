@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TodoComponent from './todoComponent'
+import TodoComponent from './components/TodoComponent'
 
 class App extends Component {
   constructor(props) {
@@ -48,7 +48,7 @@ class App extends Component {
             <button onClick={this.formSubmit}>Submit</button>
           </form>
           <TodoComponent todos={this.state.todos}
-          removeTodo={(i) => this.removeTodo(i)} />
+          removepoop={(unicorn) => this.removeTodo(unicorn)} />
         </header>
       </div>
     )
