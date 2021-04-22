@@ -12,8 +12,6 @@ class App extends Component {
     }
   }
 
-// delete function needs to use set state
-
   handleChange = event => {
     this.setState({input: event.target.value})
   }
@@ -36,8 +34,6 @@ class App extends Component {
       })
   }
 
-
-
   render() {
     return (
       <div className="App">
@@ -56,10 +52,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-// const clearTheList = () => {
-//   const arrayOfTodos = document.getElementsByTagName("OL")
-//   for (i = 0; i < arrayOfTodos.length; i++)
-//       arrayOfTodos[i].innerHTML = null
-// }
